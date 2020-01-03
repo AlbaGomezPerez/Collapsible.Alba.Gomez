@@ -9,18 +9,37 @@ const info3 = document.querySelector('.content-3');
 
 
 function showInfo1(){
-    console.log('soy 1');
+    if(info1.classList.contains('hidden') === false){
+        info1.classList.add('hidden');
+    }else{
+        info2.classList.add('hidden');
+        info3.classList.add('hidden');
+        info1.classList.remove('hidden');
+    }
 }
 section1.addEventListener('click', showInfo1);
 
 
 function showInfo2(){
-    console.log('soy 2');
+    if(info2.classList.contains('hidden') === false){
+        info2.classList.add('hidden');
+    }else{
+        info1.classList.add('hidden');
+        info3.classList.add('hidden');
+        info2.classList.remove('hidden');
+    }
 }
 section2.addEventListener('click', showInfo2);
 
+
 function showInfo3(){
-    console.log('soy 3');
+    if(info3.classList.contains('hidden') === false){
+        info3.classList.add('hidden');
+    }else{
+        info1.classList.add('hidden');
+        info2.classList.add('hidden');
+        info3.classList.remove('hidden');
+    }
 }
 section3.addEventListener('click', showInfo3);
 
