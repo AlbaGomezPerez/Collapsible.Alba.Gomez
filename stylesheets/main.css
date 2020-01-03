@@ -1,0 +1,55 @@
+/* line 1, ../scss/components/_style.scss */
+.sections-container {
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 60%;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-color: palegreen;
+}
+
+/* line 13, ../scss/components/_style.scss */
+.section {
+  height: 10%;
+  text-align: center;
+  font-size: 22px;
+  margin: auto;
+  padding-top: 2%;
+}
+
+/* line 21, ../scss/components/_style.scss */
+.section-1 {
+  background-color: cadetblue;
+}
+
+/* line 25, ../scss/components/_style.scss */
+.section-2 {
+  background-color: peru;
+}
+
+/* line 29, ../scss/components/_style.scss */
+.section-3 {
+  background-color: yellow;
+}
+
+/* line 37, ../scss/components/_style.scss */
+.content-1 {
+  background-color: #89a095;
+}
+
+/* line 41, ../scss/components/_style.scss */
+.content-2 {
+  background-color: #cdad74;
+}
+
+/* line 45, ../scss/components/_style.scss */
+.content-3 {
+  background-color: #dedc8c;
+}
+
+/* line 49, ../scss/components/_style.scss */
+.hidden {
+  display: none;
+}

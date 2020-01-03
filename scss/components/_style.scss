@@ -1,3 +1,51 @@
-.list{
-  color: red;
+.sections-container{
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 60%;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-color: palegreen;
+
+}
+
+.section{
+  height: 10%;
+  text-align: center;
+  font-size: 22px;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.section-1{
+  background-color: cadetblue;
+}
+
+.section-2{
+  background-color: peru;
+}
+
+.section-3{
+  background-color: yellow;
+}
+
+.content{
+
+}
+
+.content-1{
+  background-color: #89a095;
+}
+
+.content-2{
+  background-color: #cdad74;
+}
+
+.content-3{
+  background-color: #dedc8c;
+}
+
+.hidden{
+  display: none;
 }
