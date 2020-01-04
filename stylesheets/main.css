@@ -40,9 +40,10 @@ body {
   background-color: #d99b48;
   border: 2px solid #d4d9cd;
   color: #d4d9cd;
+  text-transform: uppercase;
 }
 
-/* line 52, ../scss/components/_style.scss */
+/* line 53, ../scss/components/_style.scss */
 .u-content {
   height: 30%;
   opacity: 0.9;
@@ -53,7 +54,7 @@ body {
   background-color: white;
 }
 
-/* line 62, ../scss/components/_style.scss */
+/* line 63, ../scss/components/_style.scss */
 .u-image {
   margin: 0;
   background-size: cover;
@@ -61,27 +62,27 @@ body {
   margin-bottom: 6%;
 }
 
-/* line 70, ../scss/components/_style.scss */
+/* line 71, ../scss/components/_style.scss */
 .image--1 {
   background-image: url("https://blog.radissonblu.com/wp-content/uploads/2016/04/Mauritius-island.jpg");
 }
 
-/* line 75, ../scss/components/_style.scss */
+/* line 76, ../scss/components/_style.scss */
 .image--2 {
   background-image: url("https://1.bp.blogspot.com/-ZvShXfYhUGo/TsU-7srTr6I/AAAAAAAACkk/YAnQeyudiNo/s1600/Sapa_Vietnam.jpg");
 }
 
-/* line 81, ../scss/components/_style.scss */
+/* line 83, ../scss/components/_style.scss */
 .image--3 {
   background-image: url("https://postmediatorontosun.files.wordpress.com/2018/12/img_9892-e1543433271190.jpg");
 }
 
-/* line 87, ../scss/components/_style.scss */
+/* line 89, ../scss/components/_style.scss */
 .hidden {
   display: none;
 }
 
-/* line 91, ../scss/components/_style.scss */
+/* line 93, ../scss/components/_style.scss */
 .section--discover {
   background-color: #cc877a;
 }

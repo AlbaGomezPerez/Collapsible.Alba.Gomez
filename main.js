@@ -8,6 +8,11 @@ const info2 = document.querySelector('.image--2');
 const info3 = document.querySelector('.image--3');
 let closeTransition = document.querySelector('.image--1').style;
 
+const otherDestinations = document.querySelector('.section--discover');
+const url = "./travelList.json";
+let places = '';
+const destinySpace = document.querySelector('.new-Sections');
+
 
 function showInfo1(){
     if(info1.classList.contains('hidden') === false){
@@ -61,3 +66,25 @@ section3.addEventListener('click', showInfo3);
 //     (transition.opacity-=.1)<0 ? transition.display="none" : setTimeout(fade,60)
 // })();
 
+//FETCH
+
+function showDestinations(){
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            places = data.Travelling;
+
+            places.destinations.map((place) => {
+                destinySpace.innerHTML += generateHTMLDestiny(place);
+            });
+        });
+}
+function generateHTMLDestiny(place){
+
+    return `<dt class="section section-">${place.destiny}<i class="fas fa-caret-down"></i></dt>
+    <dd><img src="${place.image}" class="u-image image--&{place.id}">
+        <p class="u-content content-">${place.description}
+    </p>
+    </dd>`;
+}
+otherDestinations.addEventListener('click', showDestinations);
