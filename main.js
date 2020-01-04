@@ -80,10 +80,9 @@ function showDestinations(){
         });
 }
 function generateHTMLDestiny(place){
-
-    return `<dt class="section section-">${place.destiny}<i class="fas fa-caret-down"></i></dt>
-    <dd><img src="${place.image}" class="u-image image--&{place.id}">
-        <p class="u-content content-">${place.description}
+    return `<dt class="section section-${place.id}">${place.destiny}<i class="fas fa-caret-down"></i></dt>
+    <dd class="u-image image--${place.id} hidden">
+        <p class="u-content content-${place.id}">${place.description}
     </p>
     </dd>`;
 }

@@ -30,7 +30,7 @@ body {
   height: 100vh;
 }
 
-/* line 31, ../scss/components/_style.scss */
+/* line 30, ../scss/components/_style.scss */
 .section {
   height: 4%;
   text-align: center;
@@ -43,7 +43,7 @@ body {
   text-transform: uppercase;
 }
 
-/* line 53, ../scss/components/_style.scss */
+/* line 64, ../scss/components/_style.scss */
 .u-content {
   height: 30%;
   opacity: 0.9;
@@ -54,7 +54,7 @@ body {
   background-color: white;
 }
 
-/* line 63, ../scss/components/_style.scss */
+/* line 74, ../scss/components/_style.scss */
 .u-image {
   margin: 0;
   background-size: cover;
@@ -62,27 +62,47 @@ body {
   margin-bottom: 6%;
 }
 
-/* line 71, ../scss/components/_style.scss */
+/* line 82, ../scss/components/_style.scss */
 .image--1 {
   background-image: url("https://blog.radissonblu.com/wp-content/uploads/2016/04/Mauritius-island.jpg");
 }
 
-/* line 76, ../scss/components/_style.scss */
+/* line 87, ../scss/components/_style.scss */
 .image--2 {
   background-image: url("https://1.bp.blogspot.com/-ZvShXfYhUGo/TsU-7srTr6I/AAAAAAAACkk/YAnQeyudiNo/s1600/Sapa_Vietnam.jpg");
 }
 
-/* line 83, ../scss/components/_style.scss */
+/* line 93, ../scss/components/_style.scss */
 .image--3 {
   background-image: url("https://postmediatorontosun.files.wordpress.com/2018/12/img_9892-e1543433271190.jpg");
 }
 
-/* line 89, ../scss/components/_style.scss */
+/* line 99, ../scss/components/_style.scss */
+.image--4 {
+  background-image: url("https://pbs.twimg.com/media/D7kn-q-XkAE60iH.jpg");
+}
+
+/* line 105, ../scss/components/_style.scss */
+.image--5 {
+  background-image: url("https://static.rutasdeescape.com/wp-content/uploads/2018/06/Cefalu-ppal.jpg");
+}
+
+/* line 111, ../scss/components/_style.scss */
+.image--6 {
+  background-image: url("https://www.viajejet.com/wp-content/viajes/tahiti-1440x810.jpg");
+}
+
+/* line 117, ../scss/components/_style.scss */
+.image--7 {
+  background-image: url("https://www.holidify.com/images/bgImages/LAKSHADWEEP-ISLANDS.jpg");
+}
+
+/* line 123, ../scss/components/_style.scss */
 .hidden {
   display: none;
 }
 
-/* line 93, ../scss/components/_style.scss */
+/* line 127, ../scss/components/_style.scss */
 .section--discover {
   background-color: #cc877a;
 }

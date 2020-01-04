@@ -4,7 +4,7 @@
     "year": "2020",
     "destinations": [
       {
-        "id": "travel4",
+        "id": "4",
         "destiny": "Burgh Island",
         "country": "United Kingdom",
         "language": "English",
@@ -12,7 +12,7 @@
         "description": "Located about 300 yards off the mainland of the town of Bigbury on the Sea in the south western coast of Devon, UK, lies Burgh Island. The island is dominated by the art deco Burgh Island Hotel and is reachable in low tide by walking across the sand flats. During high tide the sea tractor transports guests to and from the mainland."
       },
       {
-        "id": "travel7",
+        "id": "5",
         "destiny": "Sicily",
         "country": "Italy",
         "language": "Italian",
@@ -20,7 +20,7 @@
         "description": "The largest of the Italian Islands, Sicily seems a world apart from the rest of the country. That might be because the island exudes a strong sense of regional identity. From the fashionable resort town of Taormina with its resorts and beaches to the bustling regional capital of Palermo and the wine country in the northwestern part of the island, Sicily holds treasures everywhere"
       },
       {
-        "id": "travel8",
+        "id": "6",
         "destiny": "French Polynesia",
         "country": "France",
         "language": "French",
@@ -28,7 +28,7 @@
         "description": "French Polynesia is a collection of 118 islands in the Pacific Ocean with the largest island, and best known, being Tahiti. Although Tahiti gets a lot of recognition for being a must see destination, and rightly so, other islands also offer a great escape. Bora Bora is as well known as Tahiti and considered the Jewel of the South Seas"
       },
       {
-        "id": "travel10",
+        "id": "7",
         "destiny": "Lakshadweep Islands",
         "country": "India",
         "language": "Hindi",
