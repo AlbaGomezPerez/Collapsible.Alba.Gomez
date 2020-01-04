@@ -1,27 +1,48 @@
 /* line 1, ../scss/components/_style.scss */
-.sections-container {
+body {
+  background-image: url("https://images.unsplash.com/photo-1526944247264-8a2788aab45b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
+  background-size: auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* line 9, ../scss/components/_style.scss */
+.title {
+  font-size: 90px;
   margin: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  position: absolute;
+  color: white;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+/* line 20, ../scss/components/_style.scss */
+.sections-container {
+  z-index: 1;
+  margin: auto;
+  padding-top: 8%;
   width: 40%;
   justify-content: center;
   text-align: center;
   height: 100vh;
-  background-color: palegreen;
 }
 
-/* line 13, ../scss/components/_style.scss */
+/* line 31, ../scss/components/_style.scss */
 .section {
-  height: 6%;
+  height: 4%;
   text-align: center;
   font-size: 22px;
   margin: auto;
-  padding-top: 4%;
-  background-color: #D9B166;
-  border: 2px solid #d99b48;
+  padding-top: 2%;
+  background-color: #d99b48;
+  border: 2px solid #d4d9cd;
+  color: #d4d9cd;
 }
 
-/* line 33, ../scss/components/_style.scss */
+/* line 52, ../scss/components/_style.scss */
 .u-content {
   height: 30%;
   opacity: 0.9;
@@ -32,7 +53,7 @@
   background-color: white;
 }
 
-/* line 43, ../scss/components/_style.scss */
+/* line 62, ../scss/components/_style.scss */
 .u-image {
   margin: 0;
   background-size: cover;
@@ -40,22 +61,27 @@
   margin-bottom: 6%;
 }
 
-/* line 51, ../scss/components/_style.scss */
+/* line 70, ../scss/components/_style.scss */
 .image--1 {
   background-image: url("https://blog.radissonblu.com/wp-content/uploads/2016/04/Mauritius-island.jpg");
 }
 
-/* line 56, ../scss/components/_style.scss */
+/* line 75, ../scss/components/_style.scss */
 .image--2 {
   background-image: url("https://1.bp.blogspot.com/-ZvShXfYhUGo/TsU-7srTr6I/AAAAAAAACkk/YAnQeyudiNo/s1600/Sapa_Vietnam.jpg");
 }
 
-/* line 62, ../scss/components/_style.scss */
+/* line 81, ../scss/components/_style.scss */
 .image--3 {
   background-image: url("https://postmediatorontosun.files.wordpress.com/2018/12/img_9892-e1543433271190.jpg");
 }
 
-/* line 68, ../scss/components/_style.scss */
+/* line 87, ../scss/components/_style.scss */
 .hidden {
   display: none;
+}
+
+/* line 91, ../scss/components/_style.scss */
+.section--discover {
+  background-color: #cc877a;
 }
