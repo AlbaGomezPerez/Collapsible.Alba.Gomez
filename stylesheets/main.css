@@ -3,7 +3,7 @@
   margin: auto;
   padding-top: 5%;
   padding-bottom: 5%;
-  width: 60%;
+  width: 40%;
   justify-content: center;
   text-align: center;
   height: 100vh;
@@ -12,55 +12,50 @@
 
 /* line 13, ../scss/components/_style.scss */
 .section {
-  height: 10%;
+  height: 6%;
   text-align: center;
   font-size: 22px;
   margin: auto;
-  padding-top: 2%;
+  padding-top: 4%;
+  background-color: #D9B166;
+  border: 2px solid #d99b48;
 }
 
-/* line 21, ../scss/components/_style.scss */
-.section-1 {
-  background-color: cadetblue;
-  background-color: red;
+/* line 33, ../scss/components/_style.scss */
+.u-content {
+  height: 30%;
+  opacity: 0.9;
+  font-size: 20px;
+  text-align: center;
+  padding: 2% 4% 3% 2%;
+  box-shadow: 0 0 30px #ffffff;
+  background-color: white;
 }
 
-/* line 26, ../scss/components/_style.scss */
-.section-2 {
-  background-color: peru;
-}
-
-/* line 30, ../scss/components/_style.scss */
-.section-3 {
-  background-color: yellow;
-}
-
-/* line 38, ../scss/components/_style.scss */
-.interSection {
+/* line 43, ../scss/components/_style.scss */
+.u-image {
   margin: 0;
+  background-size: cover;
+  height: 360px;
+  margin-bottom: 6%;
 }
 
-/* line 42, ../scss/components/_style.scss */
-.content-1 {
-  background-color: #89a095;
+/* line 51, ../scss/components/_style.scss */
+.image--1 {
+  background-image: url("https://blog.radissonblu.com/wp-content/uploads/2016/04/Mauritius-island.jpg");
 }
 
-/* line 46, ../scss/components/_style.scss */
-.content-2 {
-  background-color: #cdad74;
+/* line 56, ../scss/components/_style.scss */
+.image--2 {
+  background-image: url("https://1.bp.blogspot.com/-ZvShXfYhUGo/TsU-7srTr6I/AAAAAAAACkk/YAnQeyudiNo/s1600/Sapa_Vietnam.jpg");
 }
 
-/* line 50, ../scss/components/_style.scss */
-.content-3 {
-  background-color: #dedc8c;
+/* line 62, ../scss/components/_style.scss */
+.image--3 {
+  background-image: url("https://postmediatorontosun.files.wordpress.com/2018/12/img_9892-e1543433271190.jpg");
 }
 
-/* line 54, ../scss/components/_style.scss */
+/* line 68, ../scss/components/_style.scss */
 .hidden {
   display: none;
-}
-
-/* line 58, ../scss/components/_style.scss */
-.colorHidden {
-  color: #89a095;
 }

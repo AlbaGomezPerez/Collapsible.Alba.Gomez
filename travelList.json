@@ -4,6 +4,7 @@
     "year": "2020",
     "destinations": [
       {
+        "id": "travel4",
         "destiny": "Burgh Island",
         "country": "United Kingdom",
         "language": "English",
@@ -11,6 +12,7 @@
         "description": "Located about 300 yards off the mainland of the town of Bigbury on the Sea in the south western coast of Devon, UK, lies Burgh Island. The island is dominated by the art deco Burgh Island Hotel and is reachable in low tide by walking across the sand flats. During high tide the sea tractor transports guests to and from the mainland."
       },
       {
+        "id": "travel5",
         "destiny": "Fregate Island",
         "country": "Seychelles",
         "language": "English and French",
@@ -18,6 +20,7 @@
         "description": "Fregate is a private island paradise off the coast of the Seychelles. With seven beaches overlooking the crystal clear blue waters, a private harbor a full service spa and fitness center, you can definitely get away from everything but do it in style."
       },
       {
+        "id": "travel6",
         "destiny": "Gozo",
         "country": "Malta",
         "language": "English",
@@ -25,6 +28,7 @@
         "description": "One of 21 islands in the Maltese Archipelago, Gozo is a little more relaxed, less crowded and tranquil than the main island. Inhabited at different times throughout history by the Argonese, Phoenicians, Romans and Arabs, Gozo is inhabited now by less than 30,000 people in the 14 by 7 sq. km island. The only place you are likely to see a lot of people is in the main town square. "
       },
       {
+        "id": "travel7",
         "destiny": "Sicily",
         "country": "Italy",
         "language": "Italian",
@@ -32,6 +36,7 @@
         "description": "The largest of the Italian Islands, Sicily seems a world apart from the rest of the country. That might be because the island exudes a strong sense of regional identity. From the fashionable resort town of Taormina with its resorts and beaches to the bustling regional capital of Palermo and the wine country in the northwestern part of the island, Sicily holds treasures everywhere"
       },
       {
+        "id": "travel8",
         "destiny": "French Polynesia",
         "country": "France",
         "language": "French",
@@ -39,6 +44,7 @@
         "description": "French Polynesia is a collection of 118 islands in the Pacific Ocean with the largest island, and best known, being Tahiti. Although Tahiti gets a lot of recognition for being a must see destination, and rightly so, other islands also offer a great escape. Bora Bora is as well known as Tahiti and considered the Jewel of the South Seas"
       },
       {
+        "id": "travel9",
         "destiny": "Kotor",
         "country": "Montenegro",
         "language": "Montenegrin",
@@ -46,6 +52,7 @@
         "description": "Located in the tiny nation of Montenegro, Kotor is a UNESCO World Heritage Site and cultural center. The mountains that surround the bay protect the city from harsh climates resulting in warm dry summers and mild humid winters. The ancient walled city awaits and the city is filled with boutique shops"
       },
       {
+        "id": "travel10",
         "destiny": "Lakshadweep Islands",
         "country": "India",
         "language": "Hindi",
@@ -59,7 +66,7 @@
 /*
 https://blog.radissonblu.com/wp-content/uploads/2016/04/Mauritius-island.jpg
 
-http://static.asiawebdirect.com/m/bangkok/portals/vietnam/homepage/vung_tau-con_dao-islands/con-dao-islands/pagePropertiesImage/con-dao.jpg.jpg
+
 
 https://postmediatorontosun.files.wordpress.com/2018/12/img_9892-e1543433271190.jpg
 */
