@@ -20,6 +20,7 @@
 
 .section-1{
   background-color: cadetblue;
+  background-color: red;
 }
 
 .section-2{
@@ -32,6 +33,10 @@
 
 .content{
 
+}
+
+.interSection{
+  margin: 0;
 }
 
 .content-1{
@@ -49,3 +54,8 @@
 .hidden{
   display: none;
 }
+
+.colorHidden{
+  color: #89a095;
+}
+

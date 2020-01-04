@@ -22,34 +22,45 @@
 /* line 21, ../scss/components/_style.scss */
 .section-1 {
   background-color: cadetblue;
+  background-color: red;
 }
 
-/* line 25, ../scss/components/_style.scss */
+/* line 26, ../scss/components/_style.scss */
 .section-2 {
   background-color: peru;
 }
 
-/* line 29, ../scss/components/_style.scss */
+/* line 30, ../scss/components/_style.scss */
 .section-3 {
   background-color: yellow;
 }
 
-/* line 37, ../scss/components/_style.scss */
+/* line 38, ../scss/components/_style.scss */
+.interSection {
+  margin: 0;
+}
+
+/* line 42, ../scss/components/_style.scss */
 .content-1 {
   background-color: #89a095;
 }
 
-/* line 41, ../scss/components/_style.scss */
+/* line 46, ../scss/components/_style.scss */
 .content-2 {
   background-color: #cdad74;
 }
 
-/* line 45, ../scss/components/_style.scss */
+/* line 50, ../scss/components/_style.scss */
 .content-3 {
   background-color: #dedc8c;
 }
 
-/* line 49, ../scss/components/_style.scss */
+/* line 54, ../scss/components/_style.scss */
 .hidden {
   display: none;
+}
+
+/* line 58, ../scss/components/_style.scss */
+.colorHidden {
+  color: #89a095;
 }
