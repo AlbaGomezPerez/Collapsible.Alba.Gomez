@@ -10,8 +10,8 @@ section2.addEventListener('click', showInfo);
 section3.addEventListener('click', showInfo);
 
 
-let closeTransition = document.querySelector('.image--1').style;
 
+let closeTransition = document.querySelector('.image--1').style;
 
 const url = "./travelList.json";
 let places = '';
@@ -27,13 +27,6 @@ function showInfo1(){
         // info1.classList.add('hidden');
 
     // }else{
-        // info2.classList.add('hidden');
-        // info3.classList.add('hidden');
-        // info4.classList.add('hidden');
-        // info5.classList.add('hidden');
-        // info6.classList.add('hidden');
-        // info7.classList.add('hidden');
-        // info1.classList.remove('hidden');
         /*(function fade(){
             closeTransition.opacity=.1;
             closeTransition.display="block";
@@ -69,7 +62,7 @@ function showDestinations(){
 }
 
 function generateHTMLDestiny(place){
-    return `<dt class="section section-${place.id}">${place.destiny}<i class="fas fa-caret-down"></i></dt>
+    return `<dt class="u-section section-${place.id}">${place.destiny}<i class="fas fa-caret-down"></i></dt>
     <dd class="u-image image--${place.id} hidden">
         <p class="u-content content-${place.id}">${place.description}
     </p>

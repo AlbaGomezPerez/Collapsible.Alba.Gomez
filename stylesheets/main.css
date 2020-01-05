@@ -31,7 +31,7 @@ body {
 }
 
 /* line 30, ../scss/components/_style.scss */
-.section {
+.u-section {
   height: 4%;
   text-align: center;
   font-size: 22px;
@@ -59,7 +59,7 @@ body {
   margin: 0;
   background-size: cover;
   height: 360px;
-  margin-bottom: 6%;
+  margin-bottom: 2%;
 }
 
 /* line 82, ../scss/components/_style.scss */
