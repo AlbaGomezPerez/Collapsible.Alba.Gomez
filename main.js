@@ -3,6 +3,8 @@
 const section1 = document.querySelector('.section-1');
 const section2 = document.querySelector('.section-2');
 const section3 = document.querySelector('.section-3');
+const otherDestinations = document.querySelector('.section--discover');
+const finalSection = document.querySelector('.section--finally');
 section1.addEventListener('click', showInfo);
 section2.addEventListener('click', showInfo);
 section3.addEventListener('click', showInfo);
@@ -10,7 +12,7 @@ section3.addEventListener('click', showInfo);
 
 let closeTransition = document.querySelector('.image--1').style;
 
-const otherDestinations = document.querySelector('.section--discover');
+
 const url = "./travelList.json";
 let places = '';
 const destinySpace = document.querySelector('.new-Sections');
@@ -62,6 +64,8 @@ function showDestinations(){
                 section.addEventListener('click', showInfo);
             });
     });
+    otherDestinations.classList.add('section--hidden');
+    finalSection.classList.remove('section--hidden');
 }
 
 function generateHTMLDestiny(place){

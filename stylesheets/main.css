@@ -106,3 +106,14 @@ body {
 .section--discover {
   background-color: #cc877a;
 }
+
+/* line 131, ../scss/components/_style.scss */
+.section--hidden {
+  display: none;
+}
+
+/* line 135, ../scss/components/_style.scss */
+.section--finally {
+  background-color: #d4d9cd;
+  color: #cc877a;
+}
