@@ -22,7 +22,7 @@ body{
   }
 }
 
-.sections-container{
+.sections{
   z-index: 1;
   margin: auto;
   padding-top: 30%;
@@ -37,7 +37,7 @@ body{
   }
 }
 
-.u-section{
+.u-place-title{
   height: 40px;
   text-align: center;
   font-size: 22px;
@@ -49,7 +49,7 @@ body{
   text-transform: uppercase;
 }
 
-.u-content{
+.u-place-info{
   height: 30%;
   opacity: 0.9;
   font-size: 20px;
@@ -59,38 +59,38 @@ body{
   background-color: white;
 }
 
-.u-image{
+.u-place-image{
   margin: 0;
   background-size: cover;
   height: 360px;
   margin-bottom: 2%;
 }
 
-.image--1{
+.sections-place-image--1{
   background-image: url("https://blog.radissonblu.com/wp-content/uploads/2016/04/Mauritius-island.jpg");
 }
 
-.image--2{
+.sections-place-image--2{
   background-image: url("https://1.bp.blogspot.com/-ZvShXfYhUGo/TsU-7srTr6I/AAAAAAAACkk/YAnQeyudiNo/s1600/Sapa_Vietnam.jpg");
 }
 
-.image--3{
+.sections-place-image--3{
   background-image: url("https://postmediatorontosun.files.wordpress.com/2018/12/img_9892-e1543433271190.jpg");
 }
 
-.image--4{
+.sections-place-image--4{
   background-image: url("https://pbs.twimg.com/media/D7kn-q-XkAE60iH.jpg");
 }
 
-.image--5{
+.sections-place-image--5{
   background-image: url("https://static.rutasdeescape.com/wp-content/uploads/2018/06/Cefalu-ppal.jpg");
 }
 
-.image--6{
+.sections-place-image--6{
   background-image: url("https://www.viajejet.com/wp-content/viajes/tahiti-1440x810.jpg");
 }
 
-.image--7{
+.sections-place-image--7{
   background-image: url("https://www.holidify.com/images/bgImages/LAKSHADWEEP-ISLANDS.jpg");
 }
 

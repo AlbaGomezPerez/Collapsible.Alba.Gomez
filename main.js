@@ -1,8 +1,8 @@
 'use strict';
 
-const section1 = document.querySelector('.section-1');
-const section2 = document.querySelector('.section-2');
-const section3 = document.querySelector('.section-3');
+const section1 = document.querySelector('.sections-place-title-1');
+const section2 = document.querySelector('.sections-place-title-2');
+const section3 = document.querySelector('.sections-place-title-3');
 const otherDestinations = document.querySelector('.section--discover');
 const finalSection = document.querySelector('.section--finally');
 section1.addEventListener('click', showInfo);
@@ -11,7 +11,7 @@ section3.addEventListener('click', showInfo);
 
 
 
-let closeTransition = document.querySelector('.image--1').style;
+let closeTransition = document.querySelector('.sections-place-image--1').style;
 
 const url = "./travelList.json";
 let places = '';
@@ -53,7 +53,7 @@ function showDestinations(){
             });
             //@See: https://stackoverflow.com/a/36946222
             places.destinations.map((place) => {
-                const section = document.querySelector('.section-' + place.id);
+                const section = document.querySelector('.sections-place-title-' + place.id);
                 section.addEventListener('click', showInfo);
             });
     });
@@ -62,9 +62,9 @@ function showDestinations(){
 }
 
 function generateHTMLDestiny(place){
-    return `<dt class="u-section section-${place.id}">${place.destiny}<i class="fas fa-caret-down"></i></dt>
-    <dd class="u-image image--${place.id} hidden">
-        <p class="u-content content-${place.id}">${place.description}
+    return `<dt class="u-place-title sections-place-title-${place.id}">${place.destiny}<i class="fas fa-caret-down"></i></dt>
+    <dd class="u-place-image sections-place-image--${place.id} hidden">
+        <p class="u-place-info sections-place-info--${place.id}">${place.description}
     </p>
     </dd>`;
 }
