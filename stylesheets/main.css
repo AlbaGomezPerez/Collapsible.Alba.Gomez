@@ -37,7 +37,15 @@ body {
   text-align: center;
   height: 100vh;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
+  /* line 25, ../scss/components/_style.scss */
+  .sections {
+    padding-top: 30%;
+    padding-bottom: 10%;
+    width: 80%;
+  }
+}
+@media (min-width: 1025px) {
   /* line 25, ../scss/components/_style.scss */
   .sections {
     padding-top: 10%;
@@ -46,7 +54,7 @@ body {
   }
 }
 
-/* line 40, ../scss/components/_style.scss */
+/* line 45, ../scss/components/_style.scss */
 .u-place-title {
   height: 40px;
   text-align: center;
@@ -59,7 +67,7 @@ body {
   text-transform: uppercase;
 }
 
-/* line 52, ../scss/components/_style.scss */
+/* line 57, ../scss/components/_style.scss */
 .u-place-info {
   height: 30%;
   opacity: 0.9;
@@ -70,7 +78,7 @@ body {
   background-color: white;
 }
 
-/* line 62, ../scss/components/_style.scss */
+/* line 67, ../scss/components/_style.scss */
 .u-place-image {
   margin: 0;
   background-size: cover;
@@ -78,57 +86,57 @@ body {
   margin-bottom: 2%;
 }
 
-/* line 69, ../scss/components/_style.scss */
+/* line 74, ../scss/components/_style.scss */
 .sections-place-image--1 {
   background-image: url("https://blog.radissonblu.com/wp-content/uploads/2016/04/Mauritius-island.jpg");
 }
 
-/* line 73, ../scss/components/_style.scss */
+/* line 78, ../scss/components/_style.scss */
 .sections-place-image--2 {
   background-image: url("https://1.bp.blogspot.com/-ZvShXfYhUGo/TsU-7srTr6I/AAAAAAAACkk/YAnQeyudiNo/s1600/Sapa_Vietnam.jpg");
 }
 
-/* line 77, ../scss/components/_style.scss */
+/* line 82, ../scss/components/_style.scss */
 .sections-place-image--3 {
   background-image: url("https://postmediatorontosun.files.wordpress.com/2018/12/img_9892-e1543433271190.jpg");
 }
 
-/* line 81, ../scss/components/_style.scss */
+/* line 86, ../scss/components/_style.scss */
 .sections-place-image--4 {
   background-image: url("https://pbs.twimg.com/media/D7kn-q-XkAE60iH.jpg");
 }
 
-/* line 85, ../scss/components/_style.scss */
+/* line 90, ../scss/components/_style.scss */
 .sections-place-image--5 {
   background-image: url("https://static.rutasdeescape.com/wp-content/uploads/2018/06/Cefalu-ppal.jpg");
 }
 
-/* line 89, ../scss/components/_style.scss */
+/* line 94, ../scss/components/_style.scss */
 .sections-place-image--6 {
   background-image: url("https://www.viajejet.com/wp-content/viajes/tahiti-1440x810.jpg");
 }
 
-/* line 93, ../scss/components/_style.scss */
+/* line 98, ../scss/components/_style.scss */
 .sections-place-image--7 {
   background-image: url("https://www.holidify.com/images/bgImages/LAKSHADWEEP-ISLANDS.jpg");
 }
 
-/* line 97, ../scss/components/_style.scss */
+/* line 102, ../scss/components/_style.scss */
 .hidden {
   display: none;
 }
 
-/* line 101, ../scss/components/_style.scss */
+/* line 106, ../scss/components/_style.scss */
 .section--discover {
   background-color: #cc877a;
 }
 
-/* line 105, ../scss/components/_style.scss */
+/* line 110, ../scss/components/_style.scss */
 .section--hidden {
   display: none;
 }
 
-/* line 109, ../scss/components/_style.scss */
+/* line 114, ../scss/components/_style.scss */
 .section--finally {
   background-color: #d4d9cd;
   color: #cc877a;
