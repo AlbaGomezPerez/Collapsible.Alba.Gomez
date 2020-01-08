@@ -37,8 +37,8 @@ function showInfo1(){
 }
 
 function showInfo(event){
-    document.querySelector('dd:not(.hidden)').classList.add('hidden');
-    event.currentTarget.nextElementSibling.classList.remove('hidden');
+    document.querySelector('dd:not(.u-hidden)').classList.add('u-hidden');
+    event.currentTarget.nextElementSibling.classList.remove('u-hidden');
 }
 
 
@@ -63,7 +63,7 @@ function showDestinations(){
 
 function generateHTMLDestiny(place){
     return `<dt class="u-place-title sections-place-title-${place.id}">${place.destiny}<i class="fas fa-caret-down"></i></dt>
-    <dd class="u-place-image sections-place-image--${place.id} hidden">
+    <dd class="u-place-image sections-place-image--${place.id} u-hidden">
         <p class="u-place-info sections-place-info--${place.id}">${place.description}
     </p>
     </dd>`;
