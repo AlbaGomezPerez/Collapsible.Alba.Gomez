@@ -9,48 +9,52 @@ section1.addEventListener('click', showInfo);
 section2.addEventListener('click', showInfo);
 section3.addEventListener('click', showInfo);
 
-
-
-let closeTransition = document.querySelector('.sections-place-image--1').style;
-
 const url = "./travelList.json";
 let places = '';
 const destinySpace = document.querySelector('.new-Sections');
 
 
-function showInfo1(){
+let closeTransition = document.querySelector('.sections-place-image--1').style;
+
+
+function showInfo1() {
     // if(info1.classList.contains('hidden') === false){
-        /*(function hola(){
-            closeTransition.opacity = 1;
-            (closeTransition.opacity-=.1)>0 ? closeTransition.display="none" : setTimeout(hola,60)
-        })();*/
-        // info1.classList.add('hidden');
+    /*(function hola(){
+        closeTransition.opacity = 1;
+        (closeTransition.opacity-=.1)>0 ? closeTransition.display="none" : setTimeout(hola,60)
+    })();*/
+    // info1.classList.add('hidden');
 
     // }else{
-        /*(function fade(){
-            closeTransition.opacity=.1;
-            closeTransition.display="block";
+    /*(function fade(){
+        closeTransition.opacity=.1;
+        closeTransition.display="block";
 
-            (closeTransition.opacity+=.1)>1 ? closeTransition.color="red" : setTimeout(fade,60)
-        })();*/
+        (closeTransition.opacity+=.1)>1 ? closeTransition.color="red" : setTimeout(fade,60)
+    })();*/
     // }
 }
-function closeInfo(event){
-    if(event.currentTarget.classList.contains('u-hidden') === false){
+
+function closeInfo(event) {
+    if (event.currentTarget.classList.contains('u-hidden') === false) {
         console.log('here');
         event.currentTarget.classList.add('u-hidden')
-    }else{
+    } else {
         showInfo()
     }
 }
-function showInfo(event){
-        document.querySelector('dd:not(.u-hidden)').classList.add('u-hidden');
-        event.currentTarget.nextElementSibling.classList.remove('u-hidden');
+
+function showInfo(event) {
+    document.querySelector('dd:not(.u-hidden)').classList.add('u-hidden');
+    event.currentTarget.nextElementSibling.classList.remove('u-hidden');
 }
 
 
 //FETCH
-function showDestinations(){
+/**
+ * fetch to get info from travelList.json and paint the new html structure
+ */
+function showDestinations() {
     fetch(url)
         .then(response => response.json())
         .then(data => {
@@ -59,20 +63,26 @@ function showDestinations(){
                 destinySpace.innerHTML += generateHTMLDestiny(place);
             });
             //@See: https://stackoverflow.com/a/36946222
+            //Second map because it's necessary wait the previously info
             places.destinations.map((place) => {
                 const section = document.querySelector('.sections-place-title-' + place.id);
                 section.addEventListener('click', closeInfo);
             });
-    });
+        });
+    //Change the last part of sections. Remove the part which you can search places
     otherDestinations.classList.add('section--hidden');
     finalSection.classList.remove('section--hidden');
 }
 
-function generateHTMLDestiny(place){
+/**
+ * Create html structure
+ */
+function generateHTMLDestiny(place) {
     return `<dt class="u-place-title sections-place-title-${place.id}">${place.destiny}<i class="fas fa-caret-down"></i></dt>
     <dd class="u-place-image sections-place-image--${place.id} u-hidden">
         <p class="u-place-info sections-place-info--${place.id}">${place.description}
     </p>
     </dd>`;
 }
+
 otherDestinations.addEventListener('click', showDestinations);
