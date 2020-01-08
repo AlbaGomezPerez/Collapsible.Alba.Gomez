@@ -35,10 +35,17 @@ function showInfo1(){
         })();*/
     // }
 }
-
+function closeInfo(event){
+    if(event.currentTarget.classList.contains('u-hidden') === false){
+        console.log('here');
+        event.currentTarget.classList.add('u-hidden')
+    }else{
+        showInfo()
+    }
+}
 function showInfo(event){
-    document.querySelector('dd:not(.u-hidden)').classList.add('u-hidden');
-    event.currentTarget.nextElementSibling.classList.remove('u-hidden');
+        document.querySelector('dd:not(.u-hidden)').classList.add('u-hidden');
+        event.currentTarget.nextElementSibling.classList.remove('u-hidden');
 }
 
 
@@ -54,7 +61,7 @@ function showDestinations(){
             //@See: https://stackoverflow.com/a/36946222
             places.destinations.map((place) => {
                 const section = document.querySelector('.sections-place-title-' + place.id);
-                section.addEventListener('click', showInfo);
+                section.addEventListener('click', closeInfo);
             });
     });
     otherDestinations.classList.add('section--hidden');
