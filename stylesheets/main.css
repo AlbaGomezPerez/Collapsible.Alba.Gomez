@@ -76,14 +76,14 @@ body {
   padding: 2% 4% 3% 2%;
   box-shadow: 0 0 30px #ffffff;
   background-color: white;
+  margin: 0;
 }
 
-/* line 67, ../scss/components/_style.scss */
+/* line 68, ../scss/components/_style.scss */
 .u-place-image {
   margin: 0;
   background-size: cover;
   height: 360px;
-  margin-bottom: 2%;
 }
 
 /* line 74, ../scss/components/_style.scss */
@@ -122,22 +122,32 @@ body {
 }
 
 /* line 102, ../scss/components/_style.scss */
-.u-hidden {
-  display: none;
+.u-place-close {
+  visibility: hidden;
+  opacity: 0;
+  max-height: 0px;
+  transition: max-height 0.1s, opacity 0.1s, visibility 0.1s linear;
 }
 
-/* line 106, ../scss/components/_style.scss */
+/* line 109, ../scss/components/_style.scss */
 .section--discover {
   background-color: #cc877a;
 }
 
-/* line 110, ../scss/components/_style.scss */
+/* line 113, ../scss/components/_style.scss */
 .section--hidden {
   display: none;
 }
 
-/* line 114, ../scss/components/_style.scss */
+/* line 117, ../scss/components/_style.scss */
 .section--finally {
   background-color: #d4d9cd;
   color: #cc877a;
+}
+
+/* line 122, ../scss/components/_style.scss */
+.u-place-open {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.6s, opacity 0.6s, max-height 0.6s linear;
 }

@@ -62,13 +62,13 @@ body {
   padding: 2% 4% 3% 2%;
   box-shadow: 0 0 30px #ffffff;
   background-color: white;
+  margin: 0;
 }
 
 .u-place-image {
   margin: 0;
   background-size: cover;
   height: 360px;
-  margin-bottom: 2%;
 }
 
 .sections-place-image--1 {
@@ -99,8 +99,11 @@ body {
   background-image: url("https://www.holidify.com/images/bgImages/LAKSHADWEEP-ISLANDS.jpg");
 }
 
-.u-hidden {
-  display: none;
+.u-place-close {
+  visibility: hidden;
+  opacity: 0;
+  max-height: 0px;
+  transition: max-height 0.1s, opacity 0.1s, visibility 0.1s linear;
 }
 
 .section--discover {
@@ -115,6 +118,13 @@ body {
   background-color: #d4d9cd;
   color: #cc877a;
 }
+
+.u-place-open {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.6s, opacity 0.6s, max-height 0.6s linear;
+}
+
 
 
 
