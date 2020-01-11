@@ -8,8 +8,9 @@ description.
 ## Tech tools 
 I have used some tools, like: 
 - HTML
-- SASS (SUIT CONVENTION) 
 - JAVASCRIPT
+- SASS (SUIT CONVENTION) 
+- Compass to compile sass
 
 ## Bonus
 There is a section which you can add more places sections. This part has 
