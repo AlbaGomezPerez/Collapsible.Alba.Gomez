@@ -1,33 +1,43 @@
 'use strict';
 
-//
+//json route with more places info
 const url = "./travelList.json";
 
-//
+const otherDestinations = document.querySelector('.section--discover');
+
+//Add the click function to show the place detail to elements loaded initially
 const section1 = document.querySelector('.sections-place-title-1');
 const section2 = document.querySelector('.sections-place-title-2');
 const section3 = document.querySelector('.sections-place-title-3');
-const otherDestinations = document.querySelector('.section--discover');
 section1.addEventListener('click', showInfo);
 section2.addEventListener('click', showInfo);
 section3.addEventListener('click', showInfo);
 
 /**
- *
+ * Close visible place
+ * Open place
  * @param event
  */
 function showInfo(event) {
     let placeToClose = document.querySelector('dd:not(.u-place-close)');
-    placeToClose.classList.add('u-place-close');
-    placeToClose.classList.remove('u-place-open');
-
     let placeSelected = event.currentTarget.nextElementSibling;
-
-    setTimeout(function() {
+    // close place
+    if(placeSelected.classList.contains('u-place-open')){
+        placeSelected.classList.remove('u-place-open');
+        placeSelected.classList.add('u-place-close');
+        placeToClose.classList.add('u-place-close');
+        placeToClose.classList.remove('u-place-open');
+    }else{
+        // open place
+        placeSelected.classList.add('u-place-open');
         placeSelected.classList.remove('u-place-close');
-        placeSelected.classList.toggle('u-place-open');
-    }, 150);
 
+        // add and remove classes with a delay
+        setTimeout(function () {
+            placeSelected.classList.remove('u-place-close');
+            placeSelected.classList.add('u-place-open');
+        }, 150);
+    }
 }
 
 /**
@@ -68,5 +78,5 @@ function generateHTMLDestiny(place) {
     </dd>`;
 }
 
-//
+//Add the click function to show more places
 otherDestinations.addEventListener('click', showDestinations);
